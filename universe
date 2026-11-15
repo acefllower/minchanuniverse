@@ -475,12 +475,12 @@ a.tag[href*="Bang%20Chanhun"] {
 
 a.tag[href*="Bang%20Chan"]::before,
 a.tag[href*="Bang%20Chanhun"]::before {
-  content: "♡";
+  content: "♡ ";
 }
 
 a.tag[href*="Lee%20Minho"]::before,
 a.tag[href*="Lee%20Know"]::before {
-  content: "♡";
+  content: "♡ ";
 }
 
 .javascript {
