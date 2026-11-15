@@ -615,3 +615,56 @@ ul.actions li.bookmark {
   height: 1.8em !important;
   vertical-align: middle !important;
 }
+
+.bookmark .tags a.tag,
+.bookmark .freeform.tags a {
+  color: #E6DCF2 !important;
+}
+
+.bookmark .required-tags,
+.bookmark .warnings a,
+.bookmark .warning.tags a {
+  color: #E6DCF2 !important;
+}
+
+.bookmark a,
+.bookmark a:visited {
+  color: #C7B0D8;
+}
+
+.bookmark .heading a,
+.bookmark h4 a {
+  color: #E6DCF2 !important;
+}
+
+.bookmark .byline,
+.bookmark .byline a,
+.bookmark h5 a {
+  color: #E6DCF2 !important;
+}
+
+.bookmark .relationships a.tag,
+.bookmark .relationship a,
+.bookmark dd.relationship.tags a {
+  color: #C7B0D8 !important;
+}
+
+.bookmark .freeform.tags a,
+.bookmark .tags a.tag {
+  color: #E6DCF2 !important;
+}
+
+.bookmark .required-tags,
+.bookmark .warnings a,
+.bookmark .warning.tags a {
+  color: #E6DCF2 !important;
+}
+
+.bookmark li.relationships a,
+.bookmark .relationships a.tag,
+.bookmark dd.relationship.tags a,
+.bookmark ul.relationships li a,
+.bookmark .relationship a {
+  color: #C7B0D8 !important;
+  -webkit-text-fill-color: #C7B0D8 !important;
+}
