@@ -154,9 +154,6 @@ ul.notes a,
 .splash .favorite li:nth-of-type(2n+1) a,
 .splash .favorite li:nth-of-type(2n+2) a {
   color: #C7B0D8;
-  font-weight: bold;
-  font-variant: small-caps;
-  font-size: 110%;
   background: #27222B;
 }
 
@@ -572,4 +569,49 @@ li.bookmark,
   color: #C7B0D8 !important;
   background: #27222B !important;
   border-color: #8E7E9C !important;
+}
+
+#main ul.work.navigation.actions li.bookmark,
+#main .work.navigation.actions li.bookmark,
+ul.actions li.bookmark {
+  background: transparent !important;
+  background-color: transparent !important;
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+  padding: 0 !important;
+}
+
+#header .primary {
+  display: flex;
+  align-items: center;
+}
+
+#header .primary li.search {
+  display: flex;
+  align-items: center;
+  margin-left: auto !important;
+  padding: 0 !important;
+}
+
+#header #search {
+  display: flex;
+  align-items: center;
+  margin: 0 !important;
+  padding: 0 !important;
+  position: relative !important;
+}
+
+#header #search fieldset,
+#header #search p {
+  display: flex;
+  align-items: center;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+#header #search input#site_search {
+  margin: 0 !important;
+  height: 1.8em !important;
+  vertical-align: middle !important;
 }
