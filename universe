@@ -668,3 +668,17 @@ ul.actions li.bookmark {
   color: #C7B0D8 !important;
   -webkit-text-fill-color: #C7B0D8 !important;
 }
+
+#main.chapters-show .work.navigation.actions li.subscribe,
+#main.chapters-show .work.navigation.actions li.subscribe form#new_subscription {
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+#main.chapters-show .work.navigation.actions li.subscribe form#new_subscription input {
+  background: #39323F !important;
+  color: #C7B0D8 !important;
+  border: 1px solid #C7B0D8 !important;
+  box-shadow: none !important;
+}
