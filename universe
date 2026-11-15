@@ -1,0 +1,575 @@
+#header {
+  background-image: url("https://64.media.tumblr.com/f81bea042449c67bd36f2bc1bba92cb9/3115a309eed1994d-60/s2048x3072/36c4b79985c75efd0d123a3fb2f5359cc4eee22a.png");
+  background-repeat: no-repeat;
+  background-position: center 0%;
+  background-size: contain;
+}
+
+#header {
+  position: relative;
+}
+
+#header .primary {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 0px;
+}
+
+#outer.wrapper {
+  background: #27222B;
+  background-image: url("https://64.media.tumblr.com/ed01a95961d9334642d9b08c98eb6a55/7a0b99520f827db7-e0/s1280x1920/3c906b4288cd5b37d22176c76dcd08735dc734a4.jpg");
+  background-size: 16% auto;
+  background-repeat: repeat;
+  background-position: center top;
+  color: #C7B0D8;
+}
+
+#inner.wrapper {
+  margin: 0em 4%;
+}
+
+#main,
+#inner.wrapper,
+.listbox .index,
+.work.own,
+.thread .even {
+  background: #170A21;
+}
+
+#main .heading {
+  color: #C7B0D8 !important;
+}
+
+#header .heading {
+  height: 15em;
+  margin-left: 0;
+  position: relative;
+  left: -40px;
+}
+
+#header .primary {
+  background: #27222B;
+}
+
+#header .logo,
+#header .heading sup {
+  visibility: hidden;
+}
+
+#header .heading a {
+  color: #C7B0D8;
+  margin-left: 0;
+}
+
+.event .userstuff {
+  background: #39323F;
+  border: 1px solid #C7B0D8;
+}
+
+.filtering .filters #leave_filters {
+  background: transparent !important;
+  color: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+#main a {
+  color: #E6DCF2;
+}
+
+#greeting a.dropdown-toggle,
+#header .actions a {
+  color: #C7B0D8 !important;
+}
+
+#greeting .menu,
+#header .dropdown .menu,
+#header .dropdown:hover a {
+  background: #27222B;
+}
+
+span.submit.actions input.button {
+  display: none;
+}
+
+#greeting img.icon {
+  display: none;
+}
+
+#header #search .text,
+.search [role="tooltip"] {
+  background: #27222B;
+  color: #C7B0D8 !important;
+  border: 1px solid #27222B;
+}
+
+form.search input[type=text],
+form.search input[type=submit],
+.autocomplete div.dropdown ul {
+  background: #27222B !important;
+  border: none;
+  color: #C7B0D8;
+}
+
+#header #search .text {
+  width: 5em;
+}
+
+.notice,
+.comment_notice,
+.kudos_notice,
+ul.notes,
+.caution,
+.error,
+.comment_error,
+.kudos_error,
+.alert.flash,
+.comment {
+  color: #C7B0D8;
+  background: #27222B;
+  border: none;
+}
+
+.notice a,
+.comment_notice a,
+.kudos_notice a,
+ul.notes a,
+.caution a,
+.error a,
+.comment_error a,
+.kudos_error a,
+.alert.flash a {
+  color: #C7B0D8;
+  font-weight: bold;
+}
+
+.splash .module h3 {
+  color: #C7B0D8;
+  border-bottom: 2px solid #C7B0D8;
+}
+
+.splash .favorite li:nth-of-type(2n+1) a,
+.splash .favorite li:nth-of-type(2n+2) a {
+  color: #C7B0D8;
+  font-weight: bold;
+  font-variant: small-caps;
+  font-size: 110%;
+  background: #27222B;
+}
+
+.splash .favorite li:nth-of-type(2n+1) a:hover,
+.splash .favorite li:nth-of-type(2n+2) a:hover {
+  color: #27222B;
+  font-weight: bold;
+  font-variant: small-caps;
+  background: #C7B0D8;
+}
+
+#footer {
+  background: #29252E;
+  color: #C7B0D8;
+  border-top: 3px solid #C7B0D8;
+}
+
+#footer a,
+#footer .heading {
+  color: #C7B0D8;
+}
+
+.actions a,
+.actions a:focus,
+.actions input:focus,
+.action:focus,
+.actions button,
+.actions li input,
+.actions li input[type="submit"],
+input[type="submit"],
+.actions li label,
+ul.navigation.actions li a,
+.action:link,
+.actions a:link {
+  background: #39323F;
+  border: 1px solid #C7B0D8;
+  color: #C7B0D8;
+  border-radius: 5px;
+}
+
+.current,
+#dashboard .current {
+  background: #27222B !important;
+  color: #C7B0D8 !important;
+  border-radius: 5px;
+}
+
+#dashboard.own {
+  border-top: 5px solid #C7B0D8;
+  border-bottom: 5px solid #C7B0D8;
+}
+
+#dashboard a:hover {
+  background: #27222B;
+  color: #C7B0D8 !important;
+}
+
+#dashboard a {
+  color: #C7B0D8;
+}
+
+dl.meta {
+  border: 1px solid #C7B0D8;
+}
+
+.listbox .index,
+.listbox,
+fieldset fieldset.listbox {
+  background: #27222B;
+}
+
+form dl,
+fieldset,
+fieldset fieldset,
+fieldset fieldset fieldset,
+fieldset fieldset dl dl,
+dd.hideme,
+form blockquote.userstuff,
+input,
+select,
+select:focus,
+textarea,
+span.symbol.question,
+.own {
+  background: #27222B !important;
+  color: #C7B0D8 !important;
+  border: 1px solid #C7B0D8;
+}
+
+.autocomplete li.added,
+.post .meta dd ul li.added,
+label,
+label.required {
+  color: #C7B0D8;
+}
+
+span.delete {
+  background: #27222B;
+}
+
+span.delete a {
+  color: #E6DCF2;
+  font-weight: bold;
+}
+
+.delete a,
+span.delete {
+  box-shadow: -1px -1px 2px rgba(255,255,255.25);
+}
+
+.ui-sortable li,
+.dynamic form,
+div.dynamic {
+  background: #27222B;
+  border: 1px solid #C7B0D8;
+}
+
+.dropdown {
+  background: #27222B;
+}
+
+form.verbose legend,
+.verbose form legend {
+  background: #27222B;
+  color: #C7B0D8;
+}
+
+li.blurb {
+  border: 1px solid #C7B0D8;
+}
+
+.draft {
+  background: #27222B;
+  color: #C7B0D8;
+}
+
+#header h2,
+.draft .wrapper {
+  background: #27222B;
+  border: 1px solid #C7B0D8;
+}
+
+#stat_chart svg {
+  filter: invert(90%) sepia(80%) brightness(65%) hue-rotate(5deg) saturate(90%);
+}
+
+.reading h4.viewed,
+dl.index dd,
+table,
+th,
+dt.child {
+  background: #27222B;
+}
+
+#modal,
+span.replied {
+  background: #27222B;
+  color: #C7B0D8;
+  border: 2px solid #C7B0D8;
+}
+
+.thread .even {
+  background: #39323F;
+}
+
+.unread,
+span.unread {
+  background: #27222B;
+  color: #C7B0D8;
+}
+
+.relationships .tag,
+.work .relationships a.tag,
+dd.relationship.tags a {
+  background: none;
+  color: #C7B0D8 !important;
+  font-weight: bold;
+}
+
+.blurb h4 a:visited {
+  color: #9A86A8 !important;
+}
+
+#main a:hover {
+  background: #27222B;
+  color: #C7B0D8;
+}
+
+.statistics .index li:nth-of-type(2n) {
+  background: #27222B;
+}
+
+#header #search .text,
+form.search input[type=text],
+form.search input[type=submit],
+.autocomplete div.dropdown ul {
+  background: #27222B !important;
+  color: #C7B0D8 !important;
+  border: 1px solid #58505F;
+}
+
+h4.heading.byline {
+  background: #27222B;
+  color: #C7B0D8;
+}
+
+#header form.search input[type="submit"] {
+  display: none !important;
+}
+
+#dashboard {
+  border: none !important;
+}
+
+#dashboard,
+#dashboard .primary,
+#dashboard .navigation {
+  border-top: none !important;
+  border-bottom: none !important;
+  box-shadow: none !important;
+}
+
+#header .actions a:hover,
+#header .actions a:focus,
+#header .dropdown:hover a,
+#header .open a,
+#header .menu,
+#small_login,
+.group.listbox,
+fieldset fieldset.listbox,
+form blockquote.userstuff,
+input:focus,
+textarea:focus,
+li.relationships a,
+.group.listbox .index,
+.dashboard fieldset fieldset.listbox .index,
+#dashboard a:hover,
+th,
+#dashboard .secondary,
+.secondary,
+.work.navigation .download,
+.javascript .work.navigation .download .secondary,
+.thread .even,
+.ui-datepicker tr:hover {
+  background: #27222B;
+}
+
+#header a:visited,
+#header .primary .open a,
+#header .primary .dropdown:hover a,
+#header .primary .dropdown a:focus,
+#header #search input:focus,
+#header #search input:hover,
+#dashboard a,
+#dashboard span,
+#dashboard .current,
+.heading,
+.group .heading,
+.filters dt a:hover {
+  color: #C7B0D8;
+}
+
+body,
+.group,
+.group .group,
+.region,
+.flash,
+fieldset,
+fieldset fieldset ul,
+form dl,
+textarea,
+#main .verbose legend,
+.verbose fieldset,
+.notice,
+ul.notes,
+input,
+textarea,
+table,
+th,
+td:hover,
+tr:hover,
+.symbol .question:hover,
+#modal,
+.ui-sortable li,
+.required .autocomplete,
+.autocomplete .notice,
+.system .intro,
+.comment_error,
+.kudos_error,
+div.dynamic,
+.dynamic form,
+#ui-datepicker-div,
+.ui-datepicker table,
+.annotation {
+  box-shadow: none;
+}
+
+.dashboard > .group {
+  border: none;
+}
+
+.dashboard .group .group {
+  border: 0.1px solid #8E7E9C !important;
+}
+
+#header .primary {
+  flex-wrap: wrap;
+}
+
+.filters .expander {
+  color: #C7B0D8 !important;
+  font-weight: bold;
+}
+
+a.tag[href*="Bang%20Chan"],
+a.tag[href*="Bang%20Chanhun"] {
+  display: inline-wrap;
+}
+
+a.tag[href*="Bang%20Chan"]::before,
+a.tag[href*="Bang%20Chanhun"]::before {
+  content: "♡";
+}
+
+a.tag[href*="Lee%20Minho"]::before,
+a.tag[href*="Lee%20Know"]::before {
+  content: "♡";
+}
+
+.javascript {
+  background: #170A21;
+}
+
+#footer a[href*="skin_id"],
+#footer a[href*="skin"],
+#footer a[href*="default"],
+#footer a[href*="reversi"],
+#footer a[href*="snow"],
+#footer a[href*="low-vision"],
+#footer a[href*="low_vision"] {
+  color: #C7B0D8 !important;
+  -webkit-text-fill-color: #C7B0D8 !important;
+}
+
+#footer .module.group form.button_to button,
+#footer .module.group form.button_to button:hover,
+#footer .module.group form.button_to button:focus,
+#footer .module.group form.button_to button:active {
+  color: #C7B0D8 !important;
+  -webkit-text-fill-color: #C7B0D8 !important;
+}
+
+.bookmark,
+li.bookmark,
+.bookmark.blurb,
+#bookmark-form,
+#bookmark-form fieldset,
+#bookmark-form .wrapper,
+.bookmark .userstuff,
+.bookmark .meta {
+  background-color: #27222B !important;
+  border-color: #8E7E9C !important;
+  color: #C7B0D8 !important;
+  box-shadow: none !important;
+}
+
+.bookmark,
+li.bookmark,
+#bookmark-form,
+#bookmark-form fieldset {
+  outline: none !important;
+}
+
+.bookmark a,
+.bookmark a:visited,
+#bookmark-form label,
+#bookmark-form legend {
+  color: #C7B0D8 !important;
+}
+
+#main li.bookmark,
+#main .bookmark,
+#main .bookmark.blurb,
+#main li.bookmark.blurb,
+#main .bookmark .wrapper,
+#main .bookmark .header {
+  border: 1px solid #8E7E9C !important;
+  outline: none !important;
+  box-shadow: none !important;
+  background-color: #27222B !important;
+}
+
+#main .bookmark .meta,
+#main .bookmark .notes,
+#main .bookmark .user,
+#main .bookmark .tags {
+  border-color: #8E7E9C !important;
+  background-color: transparent !important;
+}
+
+#bookmark_form_placement,
+#bookmark_form_placement.wrapper,
+#bookmark_form_placement #bookmark-form,
+#bookmark_form_placement #bookmark-form.post.bookmark,
+#bookmark_form_placement #bookmark-form form {
+  background: #27222B !important;
+  border: 1px solid #8E7E9C !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+#bookmark_form_placement #bookmark-form h3 {
+  color: #C7B0D8 !important;
+  background: #27222B !important;
+  border-color: #8E7E9C !important;
+}
